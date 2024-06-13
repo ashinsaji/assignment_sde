@@ -2,6 +2,29 @@
 
 This API manages configuration requirements for onboarding organizations from various countries. It supports CRUD (Create, Read, Update, Delete) operations on country-specific configurations.
 
+## Running the App
+
+To run the app, you can use the Uvicorn server. Follow the steps below:
+
+1. Install Uvicorn by running the following command in your terminal:
+
+```bash
+pip install uvicorn
+pip install -r requirements.txt
+```
+
+2. Navigate to the root directory of your project.
+
+3. Start the Uvicorn server by running the following command:
+
+```bash
+uvicorn main:app --reload
+```
+
+This command starts the server and enables auto-reloading, which means any changes you make to the code will automatically be reflected without having to restart the server.
+
+4. Once the server is running, you can access the API endpoints using the appropriate URLs. For example, if you're running the app locally, you can access the endpoints at `http://localhost:8000`.
+
 ## Endpoints
 
 ### 1. Create Configuration
